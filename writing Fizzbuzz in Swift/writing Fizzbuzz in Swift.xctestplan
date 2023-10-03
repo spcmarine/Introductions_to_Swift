@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "9C3A5857-B72B-4250-8FAC-A523132DE525",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:writing Fizzbuzz in Swift.xcodeproj",
+      "identifier" : "4F8CBDA12ACC342500D94EF3",
+      "name" : "writing Fizzbuzz in Swift"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:writing Fizzbuzz in Swift.xcodeproj",
+        "identifier" : "4F8CBDB12ACC342800D94EF3",
+        "name" : "writing Fizzbuzz in SwiftTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:writing Fizzbuzz in Swift.xcodeproj",
+        "identifier" : "4F8CBDBB2ACC342800D94EF3",
+        "name" : "writing Fizzbuzz in SwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
